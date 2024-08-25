@@ -13,3 +13,4 @@ It will allow the user to scroll through an initial screen of many different gen
 
 Made mostly in a Snack Expo
 Link to interactive app in browser on right click on web or scan qr code to access on device: https://snack.expo.dev/@tomm4y/genrefy
+More info here: https://docs.google.com/presentation/d/1rIG9oO6phMHdwJ5tTU99pWsQ5jRZBvLIjhvWAlC3qf0/preview
