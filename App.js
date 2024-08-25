@@ -2,7 +2,7 @@ import React, { useEffect, useState, Component } from 'react';
 import { SafeAreaView, Button, Text, View, StyleSheet, Image, TouchableHighlight, Alert, Dimensions, ScrollView } from 'react-native';
 import Constants from 'expo-constants';
 import { Audio } from 'expo-av';
-//import songs from './data';
+//import songs from './data'
 
 let deviceHeight = Dimensions.get('window').height;
 let deviceWidth = Dimensions.get('window').width;
@@ -50,11 +50,11 @@ let deviceWidth = Dimensions.get('window').width;
             song1title:"United In Grief",
             song1artist:"Kendrick Lamar",
             song1image:'https://codehs.com/uploads/7517a856e72405a832b1aaee17bef2a1',
-            url:'https://audio.jukehost.co.uk/gXGmBG4GlRZwIUHv9NHCsGGjcyxjDS5d',
+            url:'https://audio.jukehost.co.uk/ZVK3SIwoyd1vdJfpMHuMq6oLiobPpyae',
             song2title:"MELTDOWN (featuring Drake)",
             song2artist:"Travis Scott",
             song2image:'https://codehs.com/uploads/03fdacbda9cf9d8eff92d1a5ef1619b8',
-            url2:'https://audio.jukehost.co.uk/5hkmuCGjeaIfImoTGflcrSQJPc99eEkb',
+            url2:'https://audio.jukehost.co.uk/aWvE0qiT4GmxcUjqgTTOWM82rXpaHiBN',
         })
     }
   pop = () => {
@@ -71,11 +71,11 @@ let deviceWidth = Dimensions.get('window').width;
             song1title:"Bad Romance",
             song1artist:"Lady Gaga",
             song1image:'https://codehs.com/uploads/97f3610e863ab908c75de9066dcfac76',
-            url:'https://audio.jukehost.co.uk/jn5nX4U6NojQhmk1vl9XGxBFZBa4Z5Ah',
+            url:'https://audio.jukehost.co.uk/qvm5KU5gRI8ZGTP16gTDyIxxNfOixdOo',
             song2title:"Call Me Maybe",
             song2artist:"Carly Rae Jepsen",
             song2image:'https://codehs.com/uploads/7cab352d7f809586be6edce449221583',
-            url2:'https://audio.jukehost.co.uk/ehmGbPxcnQThNreEQut982urRAaapqtm',
+            url2:'https://audio.jukehost.co.uk/xUQvwpeAz0tqZ9J813r1pRsovcAtMjNs',
         })
     }
   rock = () => {
@@ -92,11 +92,11 @@ let deviceWidth = Dimensions.get('window').width;
             song1title:"Smells Like Teen Spirit",
             song1artist:"Nirvana",
             song1image:'https://codehs.com/uploads/eeda8faf3385d4f7a389f0a9333405b7',
-            url:'https://audio.jukehost.co.uk/dyfx7owFGkl6cbt0Amm9OrTAL9JWiIpg',
+            url:'https://audio.jukehost.co.uk/vCZxTsJrOEOUhvV8Zzevh9Rc4nV9Vw8E',
             song2title:"Highway To Hell",
             song2artist:"AC/DC",
             song2image:'https://codehs.com/uploads/540552d956787fc9a009b10b63e36b1b',
-            url2:'https://audio.jukehost.co.uk/dLyzkPXRG9xbI0wHHBj79hRzMADx7WUz',
+            url2:'https://audio.jukehost.co.uk/KppbbzBxctNmVl3AnmcphqLKYacsu5H7',
         })
     }
   electronic = () => {
@@ -113,11 +113,11 @@ let deviceWidth = Dimensions.get('window').width;
             song1title:"Space Battle",
             song1artist:"F-777",
             song1image:'https://codehs.com/uploads/6a0739d204e87035164ec48963f9c746',
-            url:'https://audio.jukehost.co.uk/xHwDvk02Fpw9fCqja3ILOvvBwjifZMCE',
+            url:'https://audio.jukehost.co.uk/f3AhY6d3MZGpeow8QNANgoRF6GZ1B7mX',
             song2title:"New Game",
             song2artist:"Nitro Fun",
             song2image:'https://codehs.com/uploads/f0e3e7979f3248341e6189638bbb7410',
-            url2:'https://audio.jukehost.co.uk/9wqNjstGOu1Ow9yY9946zHrwXV6s6gWP',
+            url2:'https://audio.jukehost.co.uk/lUnqmq6ZtceVUrkQzTle1brV1KoIPqdg',
         })
     }
   indie = () => {
@@ -134,11 +134,11 @@ let deviceWidth = Dimensions.get('window').width;
             song1title:"Freaks",
             song1artist:"Surf Curse",
             song1image:'https://codehs.com/uploads/391eb9e63cf8e9f1e4e459c637b84d6a',
-            url:'https://audio.jukehost.co.uk/GtWO55E9uiKI5woHNHFjJCMyRcFaU8yg',
+            url:'https://audio.jukehost.co.uk/3SXk0rUke2kukhlcb92U6x1oZO4CzgB3',
             song2title:"Take Me to the Sun",
             song2artist:"d4vd",
             song2image:'https://codehs.com/uploads/2cb493edaf09344f03c76b4acc21227e',
-            url2:'https://audio.jukehost.co.uk/8FEVyjYeMTxjIdQeVPdOkQH1RCjbncjQ',
+            url2:'https://audio.jukehost.co.uk/tVsXaTTG0Cy8CxJDxBwhLvQ3lbdPkHOh',
         })
     }
   metal = () => {
@@ -155,11 +155,11 @@ let deviceWidth = Dimensions.get('window').width;
             song1title:"Tornado of Souls",
             song1artist:"Megadeth",
             song1image:'https://codehs.com/uploads/6aeb99a2877d3162e8b8fea043e9fbad',
-            url:'https://audio.jukehost.co.uk/ELUqQk7iF2K7sKiJdNPh8i4OpmvzLz4q',
+            url:'https://audio.jukehost.co.uk/rRzOMbQY7AYhtPT7NBbMForG1w8pIwTR',
             song2title:"Seek & Destroy",
             song2artist:"Metallica",
             song2image:'https://codehs.com/uploads/0baea611ff86006ea1ada42bc5ee4513',
-            url2:'https://audio.jukehost.co.uk/tGXjhi7NPPGQTONsyINC8fO9tdGZ5GgP',
+            url2:'https://audio.jukehost.co.uk/EkHpciHdoM7PHv8ZvXDd4CzgtH2rTVKT',
         })
     }
   subgenre1 = () => {
@@ -174,11 +174,11 @@ let deviceWidth = Dimensions.get('window').width;
               song1title:"Sicko Mode (featuring Drake)",
               song1artist:"Travis Scott",
               song1image:'https://codehs.com/uploads/786598756ce15aad4061f49bbe636bb6',
-              url:'https://audio.jukehost.co.uk/4ZFkyH8W29fkapfhjdM7yloTlQGYs8Tc',
+              url:'https://audio.jukehost.co.uk/3ORWmQsxTSDieYc6vwd1NmQiiztl5WLW',
               song2title:"Mask Off",
               song2artist:"Future",
               song2image:'https://codehs.com/uploads/32af8db7c2caf4a746cc14c8f9fe4807',
-              url2:'https://audio.jukehost.co.uk/goJo85pVnLLA3SiwA6vTDnq7Ks4ALvMc',
+              url2:'https://audio.jukehost.co.uk/awJsna85DnwuB1W39lWnnvgzJMZfNxPA',
           });
           break;
         case 1:
@@ -191,11 +191,11 @@ let deviceWidth = Dimensions.get('window').width;
               song1title:"Despacito (featuring Daddy Yankee)",
               song1artist:"Luis Fonsi",
               song1image:'https://codehs.com/uploads/a4aac2f80ad91e3bd32b5b89470e2a19',
-              url:'https://audio.jukehost.co.uk/H74GyicwvYTgyd4LY4wwztk8ZZPtOvFe',
+              url:'https://audio.jukehost.co.uk/4hzkxUNigkQjhx2PLwApXuXYTN8TT5qD',
               song2title:"Bailando (ft. Descemer Bueno, Gente De Zona)",
               song2artist:"Enrique Iglesias",
               song2image:'https://codehs.com/uploads/5faf9b2b01358b37eaa8d0b13cf361c2',
-              url2:'https://audio.jukehost.co.uk/3uYw5rJsPcljdS7qorYkSof5b1F0CUkr',
+              url2:'https://audio.jukehost.co.uk/Y8a7MNwK0OiTpQHkCipTFKiPvdsCR8ce',
               
           });
           break;
@@ -209,11 +209,11 @@ let deviceWidth = Dimensions.get('window').width;
               song1title:"All the Small Things",
               song1artist:"Blink-182",
               song1image:'https://codehs.com/uploads/33fcb70a673094181f1ffb9a5b0b4d2f',
-              url:'https://audio.jukehost.co.uk/caeMh8Kk0uAGVDH6QglYxEoEUuZKOLUq',
+              url:'https://audio.jukehost.co.uk/EaGVo8StxK5p9dK2ivSjBDjAdc9OTPlT',
               song2title:"Brain Stew",
               song2artist:"Green Day",
               song2image:'https://codehs.com/uploads/9a181efb6bb89e25971334a50f5c0530',
-              url2:'https://audio.jukehost.co.uk/AGygMpMkcrXkVxQMvvhFtGBeqUAlSTFy',
+              url2:'https://audio.jukehost.co.uk/tfvJkhnMm25YqIaNscVYAObgctkO2Zj5',
               
           });
           break;
@@ -227,11 +227,11 @@ let deviceWidth = Dimensions.get('window').width;
               song1title:"Tour",
               song1artist:"Macky Gee",
               song1image:'https://codehs.com/uploads/845563681c0ca782c917bd324276dc9d',
-              url:'https://audio.jukehost.co.uk/N8rvN3OYuUEdbmFbZKayxaz4DSydWiLF',
+              url:'https://audio.jukehost.co.uk/kEEKQmhcJr9yojJ2H6bPTd7yUHtpLVzc',
               song2title:"MAKE A MOVE",
               song2artist:"REAPER",
               song2image:'https://codehs.com/uploads/550ec533eb8cdac0dce566f514029176',
-              url2:'https://audio.jukehost.co.uk/6uKHCnoD2By2i5KIB2XimwdwauLpHOAn',
+              url2:'https://audio.jukehost.co.uk/sIqsEZHsf5kZ0OPxnibSPpiXVVHkpc5I',
               
           });
           break;
@@ -245,11 +245,11 @@ let deviceWidth = Dimensions.get('window').width;
               song1title:"Playing God",
               song1artist:"Polyphia",
               song1image:'https://codehs.com/uploads/493fa34f3a0318d1eaa0cb698b6664ec',
-              url:'https://audio.jukehost.co.uk/pMSWKkCrDahm39KBVRwhnZAeQquHEbDr',
+              url:'https://audio.jukehost.co.uk/MY9CpA03lbFVgTaBGo2Q1l6L1b7P1mov',
               song2title:"Chinchilla",
               song2artist:"This Town Needs Guns",
               song2image:'https://codehs.com/uploads/f366e9eaf1e07b93bebe96ffc1a547be',
-              url2:'https://audio.jukehost.co.uk/lFUWhpsuLh8tUBSXsvz3fqmiddmCneeP',
+              url2:'https://audio.jukehost.co.uk/pMt48sJNaWx509o5bli5o7SzCM524zEp',
               
           });
           break;
@@ -263,11 +263,11 @@ let deviceWidth = Dimensions.get('window').width;
               song1title:"Can You Feel My Heart",
               song1artist:"Bring Me the Horizon",
               song1image:'https://codehs.com/uploads/8e666de44dfebe43ea68ec4f28721275',
-              url:'https://audio.jukehost.co.uk/OGPct5sVokvACzI7DltXirR0td0VhTQj',
+              url:'https://audio.jukehost.co.uk/Wf0j6RSxd4TV9Y4bfVgKMSMayOSlrlEA',
               song2title:"Nightmare",
               song2artist:"Polaris",
               song2image:'https://codehs.com/uploads/314ae8f920613744c8e75127095c7762',
-              url2:'https://audio.jukehost.co.uk/BZosKLuSHJfpMH6iUS9uxSrdBC4tA1p9',
+              url2:'https://audio.jukehost.co.uk/hlt8PspFfJlyTDnjBo1dFYTsZwmKcJX0',
               
           });
           break;
@@ -285,11 +285,11 @@ let deviceWidth = Dimensions.get('window').width;
               song1title:"Oliver Twist",
               song1artist:"ArrDee",
               song1image:'https://codehs.com/uploads/7e841de16266e61d0b3d8f5929036836',
-              url:'https://audio.jukehost.co.uk/PUOulSr8ZfLv6KM4fynpKQi4wtuy635z',
+              url:'https://audio.jukehost.co.uk/iA1JVbaI2ResavBwf9yjsX5wBXDBDaD2',
               song2title:"One Up",
               song2artist:"Central Cee",
               song2image:'https://codehs.com/uploads/bff3487e56e934c49bf8a00010ba8753',
-              url2:'https://audio.jukehost.co.uk/lE3nRq1xzW4wUNImFQqVQgpiRnHJy93t',
+              url2:'https://audio.jukehost.co.uk/kPUAFD9qc0HoL0NTFqqNVo9wtqz0r2nG',
               
           });
           break;
@@ -303,11 +303,11 @@ let deviceWidth = Dimensions.get('window').width;
               song1title:"I Gotta Feeling",
               song1artist:"Black Eyed Peas",
               song1image:'https://codehs.com/uploads/fdfc93aa227bc74b46c550d527c6753a',
-              url:'https://audio.jukehost.co.uk/DRD6Hs76S9w4Kma2yuVeq6eFeTZvx0uU',
+              url:'https://audio.jukehost.co.uk/GazWeN82O9DAIlhWFqUarp5wAVJthdnK',
               song2title:"Party Rock Anthem",
               song2artist:"LMFAO",
               song2image:'https://codehs.com/uploads/e393d8ad8ad3d113d07719f8e2b3e9e1',
-              url2:'https://audio.jukehost.co.uk/HeZAgt0liFmR1P3JeyP4yrL47fAta0mF',
+              url2:'https://audio.jukehost.co.uk/es8pswHM1X9y4oPQ5paogb9FUzCUASXk',
               
           });
           break;
@@ -320,12 +320,12 @@ let deviceWidth = Dimensions.get('window').width;
               genreImage: 'https://codehs.com/uploads/632bc248289b6c6b49ddd651ad0a30f0',
               song1title:"Silhouette",
               song1artist:"Kana-Boon",
-              song1image:'https://codehs.com/uploads/9097e0700518586cc32ec8eb31384a8b',
+              song1image:'https://audio.jukehost.co.uk/EXRsnyE4hlQayW9AcKxK7PxTZFU244MU',
               url:'https://audio.jukehost.co.uk/5OhJosejM85EyBNsnCr2MFG9wMMHT03S',
               song2title:"Absolute Zero",
               song2artist:"Natori",
               song2image:'https://codehs.com/uploads/b0565621987391f17206d67a9db1cb31',
-              url2:'https://audio.jukehost.co.uk/319RpElbzEiYn9dcmOiVQd4OzNKVt7lC',
+              url2:'https://audio.jukehost.co.uk/oIWxRDdkdQdtSx9uepHZVinYvGkL4V69',
               
           });
           break;
@@ -339,11 +339,11 @@ let deviceWidth = Dimensions.get('window').width;
               song1title:"Poppin Bottles",
               song1artist:"Chico Rose, Jaden Bojsen",
               song1image:'https://codehs.com/uploads/ba0719c810a0c0650dac152e8dc2d2db',
-              url:'https://audio.jukehost.co.uk/XLLOEaS46sCiVZ6sHvHoywiEnXNyIe9z',
+              url:'https://audio.jukehost.co.uk/5JztYeNsAEx6uyV1QbyGtttoFKXTnydc',
               song2title:"Move Your Body",
               song2artist:"Öwnboss, Sevek",
               song2image:'https://codehs.com/uploads/6a58c20c518efc7659081299d631586b',
-              url2:'https://audio.jukehost.co.uk/09cZ2OJBgP7dpyoHTxIAvZp2b8qaKFGs',
+              url2:'https://audio.jukehost.co.uk/mXXoWdUwXCCkBBpKz645ZxCROK5bVdZh',
               
           });
           break;
@@ -357,11 +357,11 @@ let deviceWidth = Dimensions.get('window').width;
               song1title:"When the Sun Hits",
               song1artist:"Slowdive",
               song1image:'https://codehs.com/uploads/8a3cfafdc4b4278ef704789e85fe78ec',
-              url:'https://audio.jukehost.co.uk/Uyw22lh4TszIMv73S9QGNPho4DsKbNA6',
+              url:'https://audio.jukehost.co.uk/vfzmG2A0VCv9cQFKaRlmTpJWQuLS1Kol',
               song2title:"When You Sleep",
               song2artist:"My Bloody Valentine",
               song2image:'https://codehs.com/uploads/66cfc9e51a0c389bcf6cf1e7624ed221',
-              url2:'https://audio.jukehost.co.uk/IDDhYipsJ3BEPRQ1w4e2CJCBIV8pziaZ',
+              url2:'https://audio.jukehost.co.uk/ksK9SNsDI0A2i00KDe4gGU7svwmJKFzO',
               
           });
           break;
@@ -375,11 +375,11 @@ let deviceWidth = Dimensions.get('window').width;
               song1title:"The Summoning",
               song1artist:"Sleep Token",
               song1image:'https://codehs.com/uploads/b846a86c502e48c9f91b35c838a2a2c2',
-              url:'https://audio.jukehost.co.uk/ZGyW1aigh2cQTI5pSvygtE7inH43ZcWA',
+              url:'https://audio.jukehost.co.uk/Y1IauaIMBYK2dZwFuNOp7S0WAt7muSLW',
               song2title:"Lateralus",
               song2artist:"Tool",
               song2image:'https://codehs.com/uploads/8e9c092ebcb7b0f54017c5f7ec0a9f4c',
-              url2:'https://audio.jukehost.co.uk/e5OikDVMZOQJ39swyORahwFjtLiMKCqG',
+              url2:'https://audio.jukehost.co.uk/Sox7Gm5mFKigCy5eFF0ckURacDtyk2oN',
               
           });
           break;
